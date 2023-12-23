@@ -1,0 +1,36 @@
+#outer{
+    height: 500px;
+    width: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.inner{
+    height: 40%;
+    width: 40%;
+    border: 10px solid black;
+    margin: auto;
+    border-radius: 20%;
+    text-align: center;
+    transition: background-color 0.5s ease;;
+}
+body{
+    text-align: center;
+}
+button{
+
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    border-radius: 40px;
+    background-color: greenyellow;
+    color: black;
+}
